@@ -1,5 +1,6 @@
-# HPALM
+# HPALM -Mod
 HP Alm Java Rest API Client
+Changed from Urlopenconenctions to using httpClient to avoid certificate error we got when using testNG listeners
 
 Default HP code has issue, which is throwing 401 exception. This code fixes that issue.
 
